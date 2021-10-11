@@ -7,6 +7,10 @@
 	font-family: 'Ubuntu Mono', monospace;
 }
 
+body {
+  background: #292b2c;
+}
+
 header
 {
   position: absolute;
@@ -195,12 +199,54 @@ header .logo
 .menu ul li a
 {
   text-decoration: none;
+  padding: 3px;
   font-size: 24px;
-  color: #111;
+  color: #f7f7f7;
 }
 .menu ul li a:hover
 {
-  color: #03a9f4; 
+  color: #f7f7; 
+}
+.dropdown {
+  transition: 0.2s ease-in-out;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  right: 0px;
+}
+.dropdown-content ul li {
+  list-style: none;
+}
+.dropdown-content ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f7f7f7;
+  margin-left: 20%;
+}
+.dropdown-link {
+  list-style: none;
+  font-size: 12px;
+  color:  #f7f7f7;
+}
+.dropdown-link:hover {
+  color:  #f7f7;
+}
+.dropdown:hover {
+  cursor:  pointer;
+}
+.dropdown:hover .dropdown-btn {
+  color: #f7f7f7;
+  text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.footmenu {
+  margin-top: 5%;
+  background: #292b2c;
 }
 
 @media (max-width: 991px)
