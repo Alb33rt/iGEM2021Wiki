@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.team-area {
+    padding: 50px 0;
+}
+
+.section-heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 65px;
+    letter-spacing: 5px;
+}
+
+
+/* Card Related Styling and Animations */
+.card {
+    max-height: 600px;
+    outline: 2px solid;
+    border-radius: 0%;
+    transition-duration: 0.4s;
+}
+
+.card:hover {
+    box-shadow: -10px 10px black;
+    transition: 0.4s all ease-in-out;
+    margin-top: -10px;
+    margin-left: 3px;
+}
+.card:hover .side-one {
+    transition: 1s ease-in-out;
+}
+/*.card .side-two {
+    display: none;
+    opacity: 0.3;
+    transition: .55s
+}
+.card:hover .side-two {
+    opacity:  1.0;
+}
+
+.card:hover img {
+    display: none;
+}*/
