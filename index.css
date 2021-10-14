@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Ubuntu Mono', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 body {
-  background: #292b2c;
+    background: #292b2c;
 }
 
 html {
@@ -131,7 +131,7 @@ header .logo
 {
   display: inline-block;
   font-size: 1em;
-  background: #f7f7f7;
+  background: #fff;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
@@ -155,75 +155,75 @@ header .logo
 }
 
 .text h2 {
-  font-size: 5em;
-  font-weight: 800;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
 .text h3 {
-  font-size: 4em;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1em;
-  text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
 .text p {
-  font-size: 1.1em;
-  color: #fff;
-  margin: 20px 0;
-  font-weight: 400;
-  max-width: 700px;
+    font-size: 1.1em;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
 }
 
 .text a {
-  display: inline-block;
-  font-size: 1em;
-  background: #fff;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  color: #111;
-  letter-spacing: 2px;
-  transition: 0.2s;
+    display: inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #111;
+    letter-spacing: 2px;
+    transition: 0.2s;
 }
 
 .text a:hover {
-  letter-spacing: 6px;
+    letter-spacing: 6px;
 }
 
 .social {
-  position: absolute;
-  z-index: 10;
-  bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social li {
-  list-style: none;
+    list-style: none;
 }
 
 .social li a {
-  display: inline-block;
-  margin-right: 20px;
-  filter: invert(1);
-  transform: scale(0.5);
-  transition: 0.5s;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(1);
+    transform: scale(0.5);
+    transition: 0.5s;
 }
 
 .social li a:hover {
-  transform: scale(0.5) translateY(-15px);
+    transform: scale(0.5) translateY(-15px);
 }
 
 .filler {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -234,35 +234,12 @@ header .logo
 }*/
 
 .wiki-content {
-  position: relative;
-  padding: 4%;
-  justify-content: center;
-  margin-top: 40px;
-  z-index: 3;
-  transition: all 0.3s ease-in-out;
-  transition-duration: 0.3s;
-  box-shadow: -10px 10px #E1BEE7;
-  outline: 2px solid;
-  left: 5px;
-  top:  -5px;
+    position: relative;
+    padding: 4%;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 3;
 }
-
-.wiki-content:hover {
-  box-shadow: -10px 10px #BA68C8;
-}
-
-.wiki-content p {
-  font-family: sans-serif;
-}
-
-/*.wiki-content:hover {
-  position: relative;
-  box-shadow: -10px 10px black;
-  left: 5px;
-  top:  -5px;
-  transition: 0.3s all ease-in-out;
-  
-}*/
 /* Navigation Related Styling */
 .sticky {
   position: fixed;
@@ -271,34 +248,33 @@ header .logo
 }
 .menu
 {
-  position:  absolute;
+  position: absolute;
   top: 0;
   right: 0;
   width: 300px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
-  background-color: #292b2c;
 }
 
 .menu ul {
-  position: relative;
+    position: relative;
 }
 
 .menu ul li {
-  list-style: none;
+    list-style: none;
 }
 
 .menu ul li a {
-  text-decoration: none;
-  padding: 3px;
-  font-size: 24px;
-  color: #f7f7f7;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 24px;
+    color: #f7f7f7;
 }
 
 .menu ul li a:hover {
-  color: #f7f7;
+    color: #f7f7;
 }
 
 .dropdown {
@@ -315,7 +291,7 @@ header .logo
   visibility:  hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear, max-height 0.3s ease;
-  transition-delay: 1.0s;
+  transition-delay: 2s;
 }
 .dropdown-content .dropdown-item{
   text-decoration: none;
@@ -326,16 +302,15 @@ header .logo
 }
 .dropdown-content .dropdown-item:hover{
   color: #292b2c;
-  background: #f7f7;
 }
 
 .dropdown:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .dropdown:hover .dropdown-btn {
-  color: #f7f7f7;
-  text-decoration: underline;
+    color: #f7f7f7;
+    text-decoration: underline;
 }
 
 .dropdown:hover .dropdown-content {
@@ -355,20 +330,20 @@ header .logo
 
 /* Cards */
 .card {
-  max-height: 600px;
-  outline: 2px solid;
-  border-radius: 0%;
-  transition-duration: 0.3s;
+    max-height: 600px;
+    outline: 2px solid;
+    border-radius: 0%;
+    transition-duration: 0.3s;
 }
 
 .card:hover {
-  box-shadow: -10px 10px black;
-  transition: 0.3s all ease-in-out;
-  margin-top: -10px;
-  margin-left: 3px;
+    box-shadow: -10px 10px black;
+    transition: 0.3s all ease-in-out;
+    margin-top: -10px;
+    margin-left: 3px;
 }
 .card:hover .side-one {
-  transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 #logo {
