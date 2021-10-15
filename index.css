@@ -16,7 +16,7 @@ html {
 
 header
 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -34,9 +34,7 @@ header .logo
 }
 .toggle
 {
-  position: fixed;
-  top: 43px;
-  right: 5%;
+  position: relative;
   width: 60px;
   height: 60px;
   background: url(https://i.ibb.co/HrfVRcx/menu.png);
@@ -44,8 +42,6 @@ header .logo
   background-size: 30px;
   background-position: center;
   cursor: pointer;
-
-  z-index: 1000;
 }
 .toggle.active
 {
@@ -147,8 +143,9 @@ header .logo
 }
 .social
 {
-  position: relative;
+  position: absolute;
   z-index: 10;
+  bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -391,12 +388,5 @@ header .logo
   .text h3
   {
     font-size: 2em;
-  }
-}
-
-@media (max-width: 576px)
-{
-  .toggle {
-    border-radius: 50%;
   }
 }
